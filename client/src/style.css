@@ -1,0 +1,60 @@
+/* this is where I am using my fonts throughout my project */
+.fontOne{
+  font-family: noteworthy, sans-serif;
+}
+.fontTwo{
+  font-family: chalkduster ,serif;
+}
+/* this is my title in my navbar */
+#navTitle{
+  text-shadow: 1px 1px 1px white;
+  font-size: 1.7em;
+  color:#ffb008!important;
+  
+}
+.navHover:hover{
+  color: black!important
+}
+/* this is where I am using the color for my background */
+ body{
+    background-color: #f2f2e5 
+}
+/* this for the jumbotron background */
+.jumbo{
+  background-color: #f2f2e5 
+}
+/* card color */
+.cardColor{
+  background: bisque;
+}
+/* location page */
+#map{
+  border-color: blue;
+  border-style: outset;
+  border-width: .5em; 
+  margin-top: 3em
+}
+/* admin page */
+#adminPage{
+  min-height: 50vh!important;
+}
+  /* this is my footer */
+  /* these are the fontawesome icons */
+.icons{
+  font-size: 20px;
+  margin-top: .5em;
+}
+.footer{
+  text-align: center;
+}  
+/* hammer icon */
+.btn-transparent{
+  background: transparent!important;
+}
+ /* this added a margin at the bottom of my find me button  */
+@media screen and (min-width: 375px) {
+  #findMe {
+    margin-bottom: 1em;
+  }
+} 
+   
